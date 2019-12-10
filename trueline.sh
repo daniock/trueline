@@ -382,11 +382,11 @@ declare -A TRUELINE_COLORS_DEFAULT=(
     [grey]='171;178;191' #abb2bf
     [light_blue]='97;175;239' #61afef
     [mono]='130;137;151' #828997
-    [orange]='209;154;102' #d19a66
+    [orange]='208;208;208' #Edited
     [purple]='198;120;221' #c678dd
     [red]='224;108;117' #e06c75
     [special_grey]='59;64;72' #3b4048
-    [white]='208;208;208' #d0d0d0
+    [white]='94;118;255' #Edited
 )
 if [[ "${#TRUELINE_COLORS[@]}" -eq 0 ]]; then
     declare -A TRUELINE_COLORS=()
